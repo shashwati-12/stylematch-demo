@@ -15,6 +15,12 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
 
+  packages/schema:
+    dependencies:
+      zod:
+        specifier: ^3.25.76
+        version: 3.25.76
+
 packages:
 
   turbo-darwin-64@2.8.3:
@@ -56,6 +62,9 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
+  zod@3.25.76:
+    resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
+
 snapshots:
 
   turbo-darwin-64@2.8.3:
@@ -86,3 +95,5 @@ snapshots:
       turbo-windows-arm64: 2.8.3
 
   typescript@5.9.3: {}
+
+  zod@3.25.76: {}
